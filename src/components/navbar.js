@@ -56,6 +56,18 @@ export default class NavigationComponent extends Component {
             Toggle
           </NavLink>
         </div>
+
+        <div className="nav-link-wrapper">
+          <NavLink to="/timer" activeClassName="nav-link-active">
+            Timer
+          </NavLink>
+        </div>
+
+          <div className="nav-link-wrapper">
+          <NavLink to="/toDoList" activeClassName="nav-link-active">
+            To Do
+          </NavLink>
+        </div>
       </div>
     );
   }

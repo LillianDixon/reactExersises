@@ -10,6 +10,8 @@ import Align from "./pages/align";
 import ShowHide from "./pages/showHide";
 import Clock from "./pages/clock";
 import ChangeColor from "./pages/changeColor";
+import Timer from "./pages/timer";
+import TodoList from "./pages/todo/toDoList";
 
 import Navbar from "./navbar";
 
@@ -29,6 +31,8 @@ export default class App extends Component {
             <Route path="/showHide" component={ShowHide} />
             <Route path="/clock" component={Clock} />
             <Route path="/changeColor" component={ChangeColor} />
+            <Route path="/timer" component={Timer} />
+            <Route path="/toDoList" component={TodoList} />
           </div>
         </BrowserRouter>
       </div>
